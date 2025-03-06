@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.Pantalla_Principal">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#9e9e9e"
+                   Offset="0.25" />
+            <GradientStop Color="#595959"
+                   Offset="100.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label 
+                FontSize="35"
+                TextColor="#fff"
+                FontAttributes="Bold"     
+                FontFamily="sans-serif-black"
+                HorizontalTextAlignment="Center"
+                Text="Hola Usuario"/>
+            <Label 
+                FontSize="32"
+                TextColor="#fff"
+                FontAttributes="Bold"
+                FontFamily="sans-serif-black"
+                HorizontalTextAlignment="Center"
+                Text="Estado Actual"/>
+            <Label 
+                x:Name="StatusLabel"
+                FontSize="32"
+                TextColor="#f00"
+                FontAttributes="Bold"
+                FontFamily="sans-serif-black"
+                HorizontalTextAlignment="Center"
+                Text="Cerrado"/>
+            <AbsoluteLayout>
+                <Button
+                    x:Name="PushButton"
+                    CornerRadius="75"
+                    WidthRequest="150"
+                    HeightRequest="150"
+                    BackgroundColor="#f00"
+                    BorderColor="#fff"
+                    BorderWidth="5"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    HorizontalOptions="Fill"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+                    Pressed="PushButton_Pressed"/>
+                <Image
+                    Source="io_button.png"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" />
+            </AbsoluteLayout>
+            <AbsoluteLayout 
+                HorizontalOptions="Center" 
+                Margin="80">
+                <BoxView
+                    CornerRadius="30"
+                    WidthRequest="400"
+                    HeightRequest="300"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize">
+                    <BoxView.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="#fff"
+                        Offset="0.1" />
+                            <GradientStop Color="#fffaf0"
+                            Offset="0.3" />
+                            <GradientStop Color="#a6a6a6"
+                        Offset="1.0" />
+                        </LinearGradientBrush>
+                    </BoxView.Background>
+                </BoxView>
+                <AbsoluteLayout>
+                    <BoxView
+                        CornerRadius="10"
+                        WidthRequest="350"
+                        HeightRequest="80"
+                        HorizontalOptions="Center"
+                        AbsoluteLayout.LayoutBounds="-45, 60, AutoSize, AutoSize">
+                        <BoxView.Background>
+                            <LinearGradientBrush EndPoint="0,1">
+                                <GradientStop Color="#ddd"
+                                                Offset="0.1" />
+                                <GradientStop Color="#bbb"
+                                                Offset="1.0" />
+                            </LinearGradientBrush>
+                        </BoxView.Background>
+                    </BoxView>
+                </AbsoluteLayout>
+                <Label 
+                    Text="Historial"
+                    FontSize="24"
+                    TextColor="#000"                    
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.05"/>
+            </AbsoluteLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

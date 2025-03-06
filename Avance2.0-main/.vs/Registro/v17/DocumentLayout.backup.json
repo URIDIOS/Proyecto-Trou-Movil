@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\views\\recuperarcontra.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\recuperarcontra.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\views\\createaccontview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\createaccontview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\views\\recuperarcontra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\recuperarcontra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\views\\videos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\videos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\downloads\\avance-main\\avance-main\\avance2.0-main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecuperarContra.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\RecuperarContra.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RecuperarContra.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\RecuperarContra.xaml.cs",
+              "RelativeToolTip": "Views\\RecuperarContra.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:26:46.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAccontView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\CreateAccontView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CreateAccontView.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\CreateAccontView.xaml.cs",
+              "RelativeToolTip": "Views\\CreateAccontView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:26:54.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecuperarContra.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\RecuperarContra.xaml",
+              "RelativeDocumentMoniker": "Views\\RecuperarContra.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\RecuperarContra.xaml",
+              "RelativeToolTip": "Views\\RecuperarContra.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T00:26:34.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Videos.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\Videos.xaml",
+              "RelativeDocumentMoniker": "Views\\Videos.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\Videos.xaml",
+              "RelativeToolTip": "Views\\Videos.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T23:11:08.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Views\\Login.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:33:45.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:33:22.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-10T00:37:56.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
