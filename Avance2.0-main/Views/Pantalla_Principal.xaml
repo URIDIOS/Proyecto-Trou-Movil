@@ -1,33 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Registro.Views.Pantalla_Principal">
-    <ContentPage.Background>
-        <LinearGradientBrush EndPoint="0,1">
-            <GradientStop Color="#9e9e9e"
-                   Offset="0.25" />
-            <GradientStop Color="#595959"
-                   Offset="100.0" />
-        </LinearGradientBrush>
-    </ContentPage.Background>
+             x:Class="Registro.Views.Pantalla_Principal"
+             Background="#cecece">
+   
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
+            Padding="0,0,0,0"
             Spacing="25">
-            <Label 
-                FontSize="35"
-                TextColor="#fff"
-                FontAttributes="Bold"     
-                FontFamily="sans-serif-black"
-                HorizontalTextAlignment="Center"
-                Text="Hola Usuario"/>
-            <Label 
-                FontSize="32"
-                TextColor="#fff"
-                FontAttributes="Bold"
-                FontFamily="sans-serif-black"
-                HorizontalTextAlignment="Center"
-                Text="Estado Actual"/>
+            <Frame
+                BackgroundColor="#545454"
+                HeightRequest="110">
+                <Label 
+                 Padding="0,0,150,25"
+                 FontSize="32"
+                 TextColor="#fff"
+                 FontAttributes="Bold"
+                 FontFamily="sans-serif-black"
+                 HorizontalTextAlignment="Center"
+                 Text="Hola, Octavio 👋"/>
+            </Frame>
             <Label 
                 x:Name="StatusLabel"
                 FontSize="32"
@@ -35,7 +27,7 @@
                 FontAttributes="Bold"
                 FontFamily="sans-serif-black"
                 HorizontalTextAlignment="Center"
-                Text="Cerrado"/>
+                Text="Puerta"/> 
             <AbsoluteLayout>
                 <Button
                     x:Name="PushButton"
@@ -51,6 +43,7 @@
                     AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
                     Pressed="PushButton_Pressed"/>
                 <Image
+                    x:Name="StatusImg"
                     Source="io_button.png"
                     WidthRequest="100"
                     HeightRequest="100"
@@ -68,34 +61,62 @@
                     AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize">
                     <BoxView.Background>
                         <LinearGradientBrush EndPoint="0,1">
-                            <GradientStop Color="#fff"
+                            <GradientStop Color="#ffffff"
                         Offset="0.1" />
-                            <GradientStop Color="#fffaf0"
+                            <GradientStop Color="#ffffff"
                             Offset="0.3" />
-                            <GradientStop Color="#a6a6a6"
+                            <GradientStop Color="#ffffff"
                         Offset="1.0" />
                         </LinearGradientBrush>
                     </BoxView.Background>
                 </BoxView>
-                <AbsoluteLayout>
-                    <BoxView
-                        CornerRadius="10"
-                        WidthRequest="350"
-                        HeightRequest="80"
-                        HorizontalOptions="Center"
-                        AbsoluteLayout.LayoutBounds="-45, 60, AutoSize, AutoSize">
-                        <BoxView.Background>
-                            <LinearGradientBrush EndPoint="0,1">
-                                <GradientStop Color="#ddd"
-                                                Offset="0.1" />
-                                <GradientStop Color="#bbb"
-                                                Offset="1.0" />
-                            </LinearGradientBrush>
-                        </BoxView.Background>
-                    </BoxView>
+                <AbsoluteLayout
+                    Padding="0,70,0,0">
+                    <Frame 
+                      BorderColor="Black"
+                      BackgroundColor="#fffaf0"
+                      CornerRadius="13"
+                      Padding="10"
+                      HeightRequest="70"
+                      WidthRequest="320">   
+                        <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                            <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                            <Label Text="La puerta se abrio 
+                                   9:00pm-9:04pm"
+                                WidthRequest="200"
+                                LineBreakMode="WordWrap"
+                                MaxLines="2"
+                                TextColor="Black"
+                                FontSize="16"
+                                VerticalOptions="Center"/>  
+                            <Image Source="des.png" WidthRequest="30" HeightRequest="30"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </AbsoluteLayout>
+                <AbsoluteLayout
+                    Padding="0,150,0,0">
+                    <Frame 
+                      BorderColor="Black"
+                      BackgroundColor="#fffaf0"
+                      CornerRadius="13"
+                      Padding="10"
+                      HeightRequest="70"
+                      WidthRequest="320">   
+                        <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                            <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                            <Label Text="La puerta se abrio 2:00pm-2:04pm 15/02/2025"
+                                WidthRequest="200"
+                                LineBreakMode="WordWrap"
+                                MaxLines="2"
+                                TextColor="Black"
+                                FontSize="16"
+                                VerticalOptions="Center"/>  
+                            <Image Source="des.png" WidthRequest="30" HeightRequest="30"/>
+                        </HorizontalStackLayout>
+                    </Frame>
                 </AbsoluteLayout>
                 <Label 
-                    Text="Historial"
+                    Text="Ultimas Interacciones"
                     FontSize="24"
                     TextColor="#000"                    
                     FontAttributes="Bold"

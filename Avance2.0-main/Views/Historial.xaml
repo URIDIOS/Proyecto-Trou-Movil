@@ -20,11 +20,7 @@
                Padding="10"
                HeightRequest="600"
                WidthRequest="350">
-        <VerticalStackLayout HorizontalOptions="Center" Spacing="15" >
-
-
-
-                
+            <VerticalStackLayout HorizontalOptions="Center" Spacing="15" >
                 <Label
                     x:Name="StatusLabel"
                     FontSize="32"
@@ -32,52 +28,36 @@
                     FontAttributes="Bold"
                     FontFamily="sans-serif-black"
                     HorizontalTextAlignment="Center"
-                    Text="Historial de actividad"
-                    />        
-            
+                    Text="Historial"
+                    HeightRequest="70"/>
                 <Frame 
                       BorderColor="Black"
                       BackgroundColor="#fffaf0"
                       CornerRadius="13"
                       Padding="5"
-                      HeightRequest="50"
+                      HeightRequest="70"
                       WidthRequest="320">
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked_1"/>
-                    </Frame.GestureRecognizers>
-
                     <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="candadoverd.png" WidthRequest="35" HeightRequest="35"/>
-                        <Label Text="La puerta se desbloqueo 6:00am   15/02/2025"
+                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                        <Label Text="La puerta se desbloqueo 6:00am 15/02/2025"
                          WidthRequest="200"
                          LineBreakMode="WordWrap"
                          MaxLines="2"
                          TextColor="Black"
                          FontSize="16"
-                       VerticalOptions="Center"/>
-                        <Image Source="descarga.png" WidthRequest="35" HeightRequest="35"/>
+                            VerticalOptions="Center"/>
+                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
                     </HorizontalStackLayout>
                 </Frame>
-
-            
-            
-            
-            
                 <Frame 
                  BorderColor="Black"
                  BackgroundColor="#fffaf0"
                  CornerRadius="13"
                  Padding="5"
-                 HeightRequest="50"
+                 HeightRequest="70"
                  WidthRequest="320">
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked_1"/>
-                    </Frame.GestureRecognizers>
-
                     <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="candadoverd.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35" />
                         <Label Text="La puerta se abrio 6:00am-6:04am    15/02/2025"
                         WidthRequest="200"
                         LineBreakMode="WordWrap"
@@ -85,29 +65,18 @@
                         TextColor="Black"
                         FontSize="16"
                         VerticalOptions="Center"/>
-                        <Image Source="descarga.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
                     </HorizontalStackLayout>
                 </Frame>
-
-
-            
-            
-
-
                 <Frame 
                     BorderColor="Black"
                     BackgroundColor="#fffaf0"
                     CornerRadius="13"
                     Padding="5"
-                    HeightRequest="50"
+                    HeightRequest="70"
                     WidthRequest="320">
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked_1"/>
-                    </Frame.GestureRecognizers>
-
                     <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="candadorojo.png" WidthRequest="23" HeightRequest="23"/>
+                        <Image Source="rojo.jpg" WidthRequest="35" HeightRequest="35"/>
                         <Label Text="La puerta se bloqueo 6:05am    15/02/2025"
                                WidthRequest="200"
                                LineBreakMode="WordWrap"
@@ -115,30 +84,18 @@
                             TextColor="Black"
                            FontSize="16"
                            VerticalOptions="Center"/>
-                        <Image Source="descarga.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
                     </HorizontalStackLayout>
                 </Frame>
-
-
-
-
-
-
-
                 <Frame 
                      BorderColor="Black"
                      BackgroundColor="#fffaf0"
                      CornerRadius="13"
                      Padding="5"
-                   HeightRequest="50"
+                   HeightRequest="70"
                      WidthRequest="320">
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked_1"/>
-                    </Frame.GestureRecognizers>
-
                     <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="candadoverd.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
                         <Label Text="La puerta se desbloqueo 8:00pm     15/02/2025"
                               WidthRequest="200"
                               LineBreakMode="WordWrap"
@@ -146,29 +103,18 @@
                               TextColor="Black"
                               FontSize="16"
                               VerticalOptions="Center"/>
-                        <Image Source="descarga.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
                     </HorizontalStackLayout>
                 </Frame>
-
-
-
-
-
-
                 <Frame 
                   BorderColor="Black"
                   BackgroundColor="#fffaf0"
                   CornerRadius="13"
                   Padding="5"
-                  HeightRequest="50"
+                  HeightRequest="70"
                   WidthRequest="320">
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked_1"/>
-                    </Frame.GestureRecognizers>
-
                     <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="candadoverd.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
                         <Label Text="La puerta se abrio 9:00pm-9:04pm      15/02/2025"
                         WidthRequest="200"
                         LineBreakMode="WordWrap"
@@ -176,51 +122,10 @@
                         TextColor="Black"
                         FontSize="16"
                         VerticalOptions="Center"/>
-                        <Image Source="descarga.png" WidthRequest="35" HeightRequest="35"/>
+                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
                     </HorizontalStackLayout>
                 </Frame>
-
-
-
-
-                <Frame 
-                       BorderColor="Black"
-                       BackgroundColor="#fffaf0"
-                       CornerRadius="13"
-                       Padding="5"
-                       HeightRequest="50"
-                       WidthRequest="320">
-
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Button_Clicked_1"/>
-                    </Frame.GestureRecognizers>
-
-                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="candadorojo.png" WidthRequest="23" HeightRequest="23"/>
-                        <Label Text="La puerta se bloqueo 10:00pm     15/02/2025"
-                          WidthRequest="200"
-                          LineBreakMode="WordWrap"
-                          MaxLines="2"
-                          TextColor="Black"
-                          FontSize="16"
-                          VerticalOptions="Center"/>
-                        <Image Source="descarga.png" WidthRequest="35" HeightRequest="35" VerticalOptions="FillAndExpand"/>
-                    </HorizontalStackLayout>
-                </Frame>
-
-
-
-
-
-
-
-
-
-
-
             </VerticalStackLayout>
-
         </Frame>
-
     </ScrollView>
 </ContentPage>

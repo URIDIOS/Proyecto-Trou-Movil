@@ -40,7 +40,7 @@
             </Frame>
             <Label
                  Margin="40,20,0,0"
-                 Text="Codigo de acceso"
+                 Text="Codigo de acceso de 6 digitos"
                  TextColor="White"
                  FontSize="15"/>
             <Frame
@@ -48,8 +48,7 @@
                  BackgroundColor="#d1d1d1"
                  WidthRequest="450"
                  HeightRequest="65">
-                <Entry              
-                     Placeholder="Codigo"
+                <Entry  
                      VerticalOptions="Center"
                      BackgroundColor="#d1d1d1"
                      WidthRequest="400"
