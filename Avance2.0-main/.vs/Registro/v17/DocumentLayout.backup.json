@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\views\\createaccontview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\createaccontview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAccontView.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\CreateAccontView.xaml",
+              "RelativeDocumentMoniker": "Views\\CreateAccontView.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\CreateAccontView.xaml",
+              "RelativeToolTip": "Views\\CreateAccontView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T21:00:32.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Login.xaml*",
+              "RelativeToolTip": "Views\\Login.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T20:50:36.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

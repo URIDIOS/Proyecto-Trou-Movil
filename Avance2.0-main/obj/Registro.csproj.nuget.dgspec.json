@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Registro.csproj": {}
+    "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Registro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Registro.csproj": {
+    "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Registro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Registro.csproj",
+        "projectUniqueName": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Registro.csproj",
         "projectName": "Registro",
-        "projectPath": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\Registro.csproj",
+        "projectPath": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Registro.csproj",
         "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jesus\\Downloads\\Avance-main\\Avance-main\\Avance2.0-main\\obj\\",
+        "outputPath": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

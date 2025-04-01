@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Registro.Views.Login">
+             x:Class="Registro.Views.Login"
+             NavigationPage.HasBackButton="False">
     <ContentPage.Background>
         <LinearGradientBrush EndPoint="0,1">
             <GradientStop Color="#9e9e9e"
@@ -58,19 +59,21 @@
                      HeightRequest="60"/>
             </Frame>
             <Button
-                 Margin="0,10,0,0"
+                 FontAttributes="Bold"
+                 Margin="0,5,0,0"
                  BackgroundColor="Transparent"
                  HeightRequest="50"
                  WidthRequest="300"
                  Text="Olvide mi contraseña"
-                 TextColor="White"
+                 TextColor="#0000FF"
                  Clicked="Button_Clicked_2"/>
             <Button
+                FontAttributes="Bold"
                 BackgroundColor="Transparent"
                 HeightRequest="50"
                 WidthRequest="300"
-                Text="¿No tienes cuenta? Crear Cuenta. aqui"
-                TextColor="White"
+                Text="¿No tienes cuenta? Crear Cuenta."
+                TextColor="#0000FF"
                 Clicked="Button_Clicked_1"/>
             <Button
                 FontFamily="loster"
