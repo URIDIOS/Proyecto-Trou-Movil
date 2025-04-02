@@ -6,7 +6,8 @@
     xmlns:local="clr-namespace:Registro.Views"
     Shell.BackgroundColor="#515151"
     Shell.FlyoutWidth="250"
-    FlyoutHeaderBehavior="CollapseOnScroll">
+    FlyoutHeaderBehavior="CollapseOnScroll"
+    Shell.NavBarHasShadow="False">
     <TabBar>
         <Tab Title="Home" Icon="casa.png">
             <ShellContent ContentTemplate="{DataTemplate local:Pantalla_Principal}"/>
