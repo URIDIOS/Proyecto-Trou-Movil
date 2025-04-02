@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Registro.Views.Pantalla_Principal"
              Background="#cecece"
-             NavigationPage.HasBackButton="False">
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="false">
    
     <ScrollView>
         <VerticalStackLayout
