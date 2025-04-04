@@ -5,128 +5,81 @@
              Background="#cecece"
              NavigationPage.HasBackButton="False"
              NavigationPage.HasNavigationBar="false">
-   
+
     <ScrollView>
-        <VerticalStackLayout
-            Padding="0,0,0,0"
-            Spacing="25">
-            <Frame
-                BackgroundColor="#545454"
-                HeightRequest="110">
-                <Label 
-                 Padding="0,0,150,25"
-                 FontSize="32"
-                 TextColor="#fff"
-                 FontAttributes="Bold"
-                 FontFamily="sans-serif-black"
-                 HorizontalTextAlignment="Center"
-                 Text="Hola, Octavio 👋"/>
+        <VerticalStackLayout Padding="0" Spacing="25">
+            <Frame BackgroundColor="#545454" HeightRequest="110">
+                <Label Padding="0,0,150,25"
+                       FontSize="32"
+                       TextColor="#fff"
+                       FontAttributes="Bold"
+                       FontFamily="sans-serif-black"
+                       HorizontalTextAlignment="Center"
+                       Text="Hola, Octavio 👋"/>
             </Frame>
-            <Label 
-                x:Name="StatusLabel"
-                FontSize="32"
-                TextColor="#f00"
-                FontAttributes="Bold"
-                FontFamily="sans-serif-black"
-                HorizontalTextAlignment="Center"
-                Text="Puerta"/> 
+
+            <Label x:Name="StatusLabel"
+                   FontSize="32"
+                   TextColor="#f00"
+                   FontAttributes="Bold"
+                   FontFamily="sans-serif-black"
+                   HorizontalTextAlignment="Center"
+                   Text="Puerta"/>
+
+            <!-- Botón para registrar eventos -->
             <AbsoluteLayout>
-                <Button
-                    x:Name="PushButton"
-                    CornerRadius="75"
-                    WidthRequest="150"
-                    HeightRequest="150"
-                    BackgroundColor="#f00"
-                    BorderColor="#fff"
-                    BorderWidth="5"
-                    SemanticProperties.Hint="Counts the number of times you click"
-                    HorizontalOptions="Fill"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
-                    Pressed="PushButton_Pressed"/>
-                <Image
-                    x:Name="StatusImg"
-                    Source="io_button.png"
-                    WidthRequest="100"
-                    HeightRequest="100"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" />
+                <Button x:Name="PushButton"
+                        CornerRadius="75"
+                        WidthRequest="150"
+                        HeightRequest="150"
+                        BackgroundColor="#f00"
+                        BorderColor="#fff"
+                        BorderWidth="5"
+                        SemanticProperties.Hint="Registrar evento de puerta"
+                        HorizontalOptions="Fill"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+                        Pressed="PushButton_Pressed"/>
+                <Image x:Name="StatusImg"
+                       Source="io_button.png"
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       AbsoluteLayout.LayoutFlags="PositionProportional"
+                       AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" />
             </AbsoluteLayout>
-            <AbsoluteLayout 
-                HorizontalOptions="Center" 
-                Margin="80">
-                <BoxView
-                    CornerRadius="30"
-                    WidthRequest="400"
-                    HeightRequest="300"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize">
-                    <BoxView.Background>
-                        <LinearGradientBrush EndPoint="0,1">
-                            <GradientStop Color="#ffffff"
-                        Offset="0.1" />
-                            <GradientStop Color="#ffffff"
-                            Offset="0.3" />
-                            <GradientStop Color="#ffffff"
-                        Offset="1.0" />
-                        </LinearGradientBrush>
-                    </BoxView.Background>
-                </BoxView>
-                <AbsoluteLayout
-                    Padding="0,70,0,0">
-                    <Frame 
-                      BorderColor="Black"
-                      BackgroundColor="#fffaf0"
-                      CornerRadius="13"
-                      Padding="10"
-                      HeightRequest="70"
-                      WidthRequest="320">   
-                        <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                            <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
-                            <Label Text="La puerta se abrio 
-                                   9:00pm-9:04pm"
-                                WidthRequest="200"
-                                LineBreakMode="WordWrap"
-                                MaxLines="2"
-                                TextColor="Black"
-                                FontSize="16"
-                                VerticalOptions="Center"/>  
-                            <Image Source="des.png" WidthRequest="30" HeightRequest="30"/>
-                        </HorizontalStackLayout>
-                    </Frame>
-                </AbsoluteLayout>
-                <AbsoluteLayout
-                    Padding="0,150,0,0">
-                    <Frame 
-                      BorderColor="Black"
-                      BackgroundColor="#fffaf0"
-                      CornerRadius="13"
-                      Padding="10"
-                      HeightRequest="70"
-                      WidthRequest="320">   
-                        <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                            <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
-                            <Label Text="La puerta se abrio 2:00pm-2:04pm 15/02/2025"
-                                WidthRequest="200"
-                                LineBreakMode="WordWrap"
-                                MaxLines="2"
-                                TextColor="Black"
-                                FontSize="16"
-                                VerticalOptions="Center"/>  
-                            <Image Source="des.png" WidthRequest="30" HeightRequest="30"/>
-                        </HorizontalStackLayout>
-                    </Frame>
-                </AbsoluteLayout>
-                <Label 
-                    Text="Ultimas Interacciones"
-                    FontSize="24"
-                    TextColor="#000"                    
-                    FontAttributes="Bold"
-                    HorizontalTextAlignment="Center"
-                    VerticalTextAlignment="Center"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.05"/>
-            </AbsoluteLayout>
+
+            <!-- Título de la lista de notificaciones -->
+            <Label Text="Últimas Interacciones"
+                   FontSize="24"
+                   TextColor="#000"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+            <!-- Lista de notificaciones -->
+            <CollectionView x:Name="NotificacionesList" HeightRequest="300">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Black"
+                               BackgroundColor="#fffaf0"
+                               CornerRadius="13"
+                               Padding="5"
+                               HeightRequest="70">
+                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                                <Label Text="{Binding .}"
+                                       WidthRequest="200"
+                                       LineBreakMode="WordWrap"
+                                       MaxLines="2"
+                                       TextColor="Black"
+                                       FontSize="16"
+                                       VerticalOptions="Center"/>
+                                <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </VerticalStackLayout>
     </ScrollView>
-</ContentPage>
+    </ContentPage>

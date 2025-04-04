@@ -3,129 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Registro.Views.Historial"
              NavigationPage.HasNavigationBar="false">
+
     <ContentPage.Background>
         <LinearGradientBrush EndPoint="0,1">
-            <GradientStop Color="#9e9e9e"
-                    Offset="0.25" />
-            <GradientStop Color="#595959"
-                    Offset="100.0" />
+            <GradientStop Color="#9e9e9e" Offset="0.25" />
+            <GradientStop Color="#595959" Offset="1.0" />
         </LinearGradientBrush>
     </ContentPage.Background>
-    <ScrollView >
-        <!--valores generales-->
-        <Frame
-               BorderColor="Black"
-               BackgroundColor="White"
-               CornerRadius="20"
-               Padding="10"
-               HeightRequest="600"
-               WidthRequest="350">
-            <VerticalStackLayout HorizontalOptions="Center" Spacing="15" >
-                <Label
-                    x:Name="StatusLabel"
-                    FontSize="32"
-                    TextColor="Black"
-                    FontAttributes="Bold"
-                    FontFamily="sans-serif-black"
-                    HorizontalTextAlignment="Center"
-                    Text="Historial"
-                    HeightRequest="70"/>
-                <Frame 
-                      BorderColor="Black"
-                      BackgroundColor="#fffaf0"
-                      CornerRadius="13"
-                      Padding="5"
-                      HeightRequest="70"
-                      WidthRequest="320">
-                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
-                        <Label Text="La puerta se desbloqueo 6:00am 15/02/2025"
-                         WidthRequest="200"
-                         LineBreakMode="WordWrap"
-                         MaxLines="2"
-                         TextColor="Black"
-                         FontSize="16"
-                            VerticalOptions="Center"/>
-                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
-                    </HorizontalStackLayout>
-                </Frame>
-                <Frame 
-                 BorderColor="Black"
-                 BackgroundColor="#fffaf0"
-                 CornerRadius="13"
-                 Padding="5"
-                 HeightRequest="70"
-                 WidthRequest="320">
-                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35" />
-                        <Label Text="La puerta se abrio 6:00am-6:04am    15/02/2025"
-                        WidthRequest="200"
-                        LineBreakMode="WordWrap"
-                        MaxLines="2"
-                        TextColor="Black"
-                        FontSize="16"
-                        VerticalOptions="Center"/>
-                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
-                    </HorizontalStackLayout>
-                </Frame>
-                <Frame 
-                    BorderColor="Black"
-                    BackgroundColor="#fffaf0"
-                    CornerRadius="13"
-                    Padding="5"
-                    HeightRequest="70"
-                    WidthRequest="320">
-                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="rojo.jpg" WidthRequest="35" HeightRequest="35"/>
-                        <Label Text="La puerta se bloqueo 6:05am    15/02/2025"
-                               WidthRequest="200"
-                               LineBreakMode="WordWrap"
-                               MaxLines="2"
-                            TextColor="Black"
-                           FontSize="16"
-                           VerticalOptions="Center"/>
-                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
-                    </HorizontalStackLayout>
-                </Frame>
-                <Frame 
-                     BorderColor="Black"
-                     BackgroundColor="#fffaf0"
-                     CornerRadius="13"
-                     Padding="5"
-                   HeightRequest="70"
-                     WidthRequest="320">
-                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
-                        <Label Text="La puerta se desbloqueo 8:00pm     15/02/2025"
-                              WidthRequest="200"
-                              LineBreakMode="WordWrap"
-                              MaxLines="2"
-                              TextColor="Black"
-                              FontSize="16"
-                              VerticalOptions="Center"/>
-                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
-                    </HorizontalStackLayout>
-                </Frame>
-                <Frame 
-                  BorderColor="Black"
-                  BackgroundColor="#fffaf0"
-                  CornerRadius="13"
-                  Padding="5"
-                  HeightRequest="70"
-                  WidthRequest="320">
-                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                        <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
-                        <Label Text="La puerta se abrio 9:00pm-9:04pm      15/02/2025"
-                        WidthRequest="200"
-                        LineBreakMode="WordWrap"
-                        MaxLines="2"
-                        TextColor="Black"
-                        FontSize="16"
-                        VerticalOptions="Center"/>
-                        <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
-                    </HorizontalStackLayout>
-                </Frame>
-            </VerticalStackLayout>
-        </Frame>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="15" HorizontalOptions="Center">
+
+            <Label Text="Historial"
+                   FontSize="32"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   FontFamily="sans-serif-black"
+                   HorizontalTextAlignment="Center"
+                   HeightRequest="70"/>
+
+            <!-- Lista de notificaciones -->
+            <CollectionView x:Name="NotificacionesList" HeightRequest="500">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Black"
+                               BackgroundColor="#fffaf0"
+                               CornerRadius="13"
+                               Padding="5"
+                               HeightRequest="70"
+                               WidthRequest="320">
+                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                                <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                                <Label Text="{Binding .}"
+                                       WidthRequest="200"
+                                       LineBreakMode="WordWrap"
+                                       MaxLines="2"
+                                       TextColor="Black"
+                                       FontSize="16"
+                                       VerticalOptions="Center"/>
+                                <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
     </ScrollView>
+
 </ContentPage>

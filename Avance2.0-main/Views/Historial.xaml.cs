@@ -1,15 +1,14 @@
-namespace Registro.Views;
+using Microsoft.Maui.Controls;
+using System.Collections.ObjectModel;
 
-public partial class Historial : ContentPage
+namespace Registro.Views
 {
-	public Historial()
-	{
-		InitializeComponent();
-	}
-
-	private async void Button_Clicked(object sender, EventArgs e)
+    public partial class Historial : ContentPage
     {
-        await Navigation.PushAsync(new Views.Pantalla_Principal());
+        public Historial()
+        {
+            InitializeComponent();
+            NotificacionesList.ItemsSource = Pantalla_Principal.Notificaciones; // Sincroniza con las notificaciones de Pantalla_Principal
+        }
     }
-
 }
