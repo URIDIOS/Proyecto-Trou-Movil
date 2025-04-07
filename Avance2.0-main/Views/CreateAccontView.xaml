@@ -32,6 +32,7 @@
             WidthRequest="350"
             HeightRequest="65">
             <Entry
+                x:Name="nombre"
                 Placeholder="Nombre"
                 PlaceholderColor="Black"
                 BackgroundColor="#d1d1d1"
@@ -49,6 +50,7 @@
             WidthRequest="350"
             HeightRequest="65">
             <Entry
+                x:Name="correo"
                 PlaceholderColor="Black"
                 Placeholder="Correo Electronico"
                 BackgroundColor="#d1d1d1"
@@ -67,6 +69,7 @@
             WidthRequest="350"
             HeightRequest="65">
             <Entry
+                x:Name="contraseña"
                 Placeholder="Contraseña"
                 PlaceholderColor="Black"
                 BackgroundColor="#d1d1d1"

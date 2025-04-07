@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\",
+  "WorkspaceRootPath": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\historial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\historial.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\pantalla_principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\pantalla_principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\pantalla_principal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\pantalla_principal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\historial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\historial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\recuperarcontra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\recuperarcontra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\views\\actividad.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:views\\actividad.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\home\\downloads\\proyectoclonado\\proyecto-trou-movil\\avance2.0-main\\registro.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:registro.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,113 +22,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Historial.xaml",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Historial.xaml",
-              "RelativeDocumentMoniker": "Views\\Historial.xaml",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Historial.xaml",
-              "RelativeToolTip": "Views\\Historial.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T19:30:29.922Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Historial.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Historial.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Historial.xaml.cs",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Historial.xaml.cs",
-              "RelativeToolTip": "Views\\Historial.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Service\\ApiService.cs",
+              "RelativeDocumentMoniker": "Service\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Service\\ApiService.cs",
+              "RelativeToolTip": "Service\\ApiService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:31:40.632Z",
+              "WhenOpened": "2025-04-07T03:25:35.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Pantalla_Principal.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Pantalla_Principal.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pantalla_Principal.xaml.cs",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Pantalla_Principal.xaml.cs",
-              "RelativeToolTip": "Views\\Pantalla_Principal.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:31:06.524Z",
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-06T00:10:30.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Pantalla_Principal.xaml",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Pantalla_Principal.xaml",
-              "RelativeDocumentMoniker": "Views\\Pantalla_Principal.xaml",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Pantalla_Principal.xaml",
-              "RelativeToolTip": "Views\\Pantalla_Principal.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T19:30:27.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RecuperarContra.xaml",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\RecuperarContra.xaml",
-              "RelativeDocumentMoniker": "Views\\RecuperarContra.xaml",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\RecuperarContra.xaml",
-              "RelativeToolTip": "Views\\RecuperarContra.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T19:30:26.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Actividad.xaml",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Actividad.xaml",
-              "RelativeDocumentMoniker": "Views\\Actividad.xaml",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Actividad.xaml",
-              "RelativeToolTip": "Views\\Actividad.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T19:30:12.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Registro",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Registro.csproj",
-              "RelativeDocumentMoniker": "Registro.csproj",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Registro.csproj",
-              "RelativeToolTip": "Registro.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T16:44:10.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Login.xaml",
-              "RelativeDocumentMoniker": "Views\\Login.xaml",
-              "ToolTip": "C:\\Users\\Home\\Downloads\\Proyectoclonado\\Proyecto-Trou-Movil\\Avance2.0-main\\Views\\Login.xaml",
-              "RelativeToolTip": "Views\\Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-01T20:50:36.461Z",
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T00:12:52.619Z",
               "EditorCaption": ""
             }
           ]

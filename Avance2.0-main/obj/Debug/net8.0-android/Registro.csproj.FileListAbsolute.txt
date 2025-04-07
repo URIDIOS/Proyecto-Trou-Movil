@@ -3173,11 +3173,6 @@ C:\Users\Jesus\Downloads\Avance-main\Avance-main\Avance2.0-main\obj\Debug\net8.0
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\Registro.runtimeconfig.json
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\Registro.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\Registro.pdb
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\com.companyname.registro.apk
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\com.companyname.registro.aab
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\com.companyname.registro-Signed.aab
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\com.companyname.registro-Signed.apk
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\com.companyname.registro-Signed.apk.idsig
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
@@ -3312,10 +3307,7 @@ C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-androi
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\Registro.pdb
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\Registro.genruntimeconfig.cache
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\Registro.runtimeconfig.json.bin
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\com.companyname.registro.apk
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\base.zip
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\com.companyname.registro.aab
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\com.companyname.registro.apks
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\res\values\colors.xml
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\uploadflags.txt
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\resolvedassemblies.hash
@@ -3468,7 +3460,6 @@ C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-androi
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -4212,7 +4203,6 @@ C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-androi
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\packaged_resources
-C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\src\com\companyname\registro\R.java
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\_CompileJava.FileList.txt
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
 C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\typemaps.x86_64.o
@@ -5293,3 +5283,14 @@ C:\Users\Home\Downloads\Proyectoclonado\Proyecto-Trou-Movil\Avance2.0-main\obj\D
 C:\Users\Home\Downloads\Proyectoclonado\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Home\Downloads\Proyectoclonado\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Home\Downloads\Proyectoclonado\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\ar.com.OCTA.Registro.apk
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\ar.com.OCTA.Registro.aab
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\ar.com.OCTA.Registro-Signed.aab
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\ar.com.OCTA.Registro-Signed.apk
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\bin\Debug\net8.0-android\ar.com.OCTA.Registro-Signed.apk.idsig
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\ar.com.OCTA.Registro.apk
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\ar.com.OCTA.Registro.aab
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\bin\ar.com.OCTA.Registro.apks
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\src\ar\com\octa\registro\R.java
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\obj\Debug\net8.0-android\android\assets\MongoDB.Bson.dll
